@@ -1,6 +1,3 @@
-# capstone-project-3900h14amortgagemates
-capstone-project-3900h14amortgagemates created by GitHub Classroom
-
 ##Build Instructions
 ###Backend
 1. **To start the backend application you first ensure you are in the correct directory**
