@@ -1,0 +1,103 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "What papers are required for a mortgage application",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What documents do I need?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Tell me more about documentation",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What period of ",
+      "auto": true
+    }, {
+      "text": "bank statements",
+      "parameterId": "document",
+      "auto": true
+    }, {
+      "text": " do I need?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Do I need my ",
+      "auto": true
+    }, {
+      "text": "bank statement",
+      "parameterId": "document",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Do I need documentation for my ",
+      "auto": true
+    }, {
+      "text": "partner",
+      "parameterId": "document",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What are the file types I need for my documentation",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What documents do I need to prepare / upload",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Tell me more about ",
+      "auto": true
+    }, {
+      "text": "identification",
+      "parameterId": "document",
+      "auto": true
+    }, {
+      "text": " documentation",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Identification",
+      "parameterId": "document",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Document",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

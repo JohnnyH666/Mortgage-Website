@@ -1,0 +1,63 @@
+{
+  "name": "694ece76-4761-444f-b85f-b3f6eaf94423",
+  "displayName": "Get Loan Limit Variables",
+  "form": {
+    "parameters": [ {
+      "displayName": "dependents",
+      "required": true,
+      "entityType": "@sys.number-integer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Please provide the number of dependents for your loan:" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      },
+      "redact": true
+    }, {
+      "displayName": "income",
+      "required": true,
+      "entityType": "@sys.number-integer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Enter your estimated yearly income. Don't worry it doesn't have to be exact!" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "expense",
+      "required": true,
+      "entityType": "@sys.number-integer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Finally we just need your estimated yearly expenses, this includes living expenses and any loan repayments you currently make." ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      },
+      "redact": true
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "webhook": "getLoanLimit",
+      "tag": "getLoanLimit"
+    },
+    "targetPage": "Thank You!",
+    "name": "4b7a3e33-85cb-4e95-81a4-f45017aac190"
+  } ]
+}

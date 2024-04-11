@@ -1,0 +1,7 @@
+{
+  "name": "b6c57aed-0692-47e6-9ac6-4d442c7a2d32",
+  "displayName": "redirect.form",
+  "priority": 500000,
+  "description": "Intent triggers information about the application form and gives user a link to user loan applications",
+  "numTrainingPhrases": 7
+}

@@ -1,0 +1,7 @@
+{
+  "name": "ebf6aed0-9b37-4060-8c61-07a120cd3a83",
+  "displayName": "redirect.home",
+  "priority": 500000,
+  "description": "Go back home",
+  "numTrainingPhrases": 4
+}

@@ -1,0 +1,11 @@
+{
+  "name": "fd48d4c3-0060-413e-9c32-f7e6b82ab8c7",
+  "displayName": "redirect.document",
+  "parameters": [ {
+    "id": "document",
+    "entityType": "@Document"
+  } ],
+  "priority": 500000,
+  "description": "Triggers when user asks about documentation",
+  "numTrainingPhrases": 11
+}

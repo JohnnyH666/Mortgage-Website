@@ -1,0 +1,39 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "What is an example of a ",
+      "auto": true
+    }, {
+      "text": "loan package",
+      "parameterId": "loanpackage",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Tell me more about ",
+      "auto": true
+    }, {
+      "text": "loan packages",
+      "parameterId": "loanpackage",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What are some of the ",
+      "auto": true
+    }, {
+      "text": "loan packages",
+      "parameterId": "loanpackage",
+      "auto": true
+    }, {
+      "text": " in the system",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "c1d2b2eb-f9e5-4d0e-b476-e28026b9dcb8",
+  "displayName": "Loan Limit",
+  "description": "Flow of user to input loan limit ",
+  "transitionRoutes": [ {
+    "intent": "redirect.home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "2fc87bc5-9c36-4d23-aa8a-c0eebb005fdc"
+  }, {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Get Loan Limit Variables",
+    "name": "4b64ca28-8703-489a-86a5-070df5855268"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "88acdadf-cb1c-4c5b-b685-bd150e7f6a17"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "f7f94460-e7f0-4991-bf8c-4c6d29400979"
+  }, {
+    "event": "webhook.error",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Oops looks like our loan calculator is currently down. Please try again later. " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "85fd1960-6e66-4846-add9-09d19d888837"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC",
+    "multiIntentSettings": {
+    
+    }
+  },
+  "advancedSettings": {
+    "enabled": true
+  }
+}

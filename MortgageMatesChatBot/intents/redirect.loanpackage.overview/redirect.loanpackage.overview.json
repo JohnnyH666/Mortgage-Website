@@ -1,0 +1,11 @@
+{
+  "name": "89e02ed2-ac02-4d46-a78e-e88d4f085f18",
+  "displayName": "redirect.loanpackage.overview",
+  "parameters": [ {
+    "id": "loanpackage",
+    "entityType": "@LoanPackage"
+  } ],
+  "priority": 500000,
+  "description": "redirect users to a loan package prompt, here the user is explained what a loan package and has the option to view all the current loan packages available to them.",
+  "numTrainingPhrases": 8
+}

@@ -1,0 +1,45 @@
+{
+  "name": "712fe64b-15ce-4a6a-8d8c-f09c87b66aca",
+  "displayName": "Loan Package",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Loan Packages are custom-built packages created specifically for a wide range of different loan options you may require. It includes information such as interest rate, loan period, repayment amount and the fee. " ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "What are some examples of loan packages?"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "LoanPackage",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "LoanPackageDetails",
+    "name": "bd1b8fca-4b82-45b4-97e5-817184f65181"
+  }, {
+    "intent": "redirect.home",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Bye Bye! " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Flow",
+    "name": "7e73978a-b668-4736-8bfb-6883d80d49af"
+  } ]
+}

@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "Bank Statement",
+    "synonyms": [ "Bank", "Bank Statement", "Transaction History" ],
+    "languageCode": "en"
+  }, {
+    "value": "Payslip",
+    "synonyms": [ "Employment", "Income Statement", "Payslip" ],
+    "languageCode": "en"
+  }, {
+    "value": "Partner Bank Statment",
+    "synonyms": [ "Partner", "Partner Bank Statment" ],
+    "languageCode": "en"
+  }, {
+    "value": "Identification",
+    "synonyms": [ "Driver License", "Identification", "Medicare", "Passport", "Verification", "Identity" ],
+    "languageCode": "en"
+  } ]
+}

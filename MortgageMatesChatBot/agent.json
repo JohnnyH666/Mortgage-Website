@@ -1,0 +1,12 @@
+{
+  "defaultLanguageCode": "en",
+  "timeZone": "Australia/Sydney",
+  "projectNumber": 1041933109746,
+  "startFlow": "Default Start Flow",
+  "advancedSettings": {
+    "loggingSettings": {
+    
+    }
+  },
+  "dataResidencyOption": "DATA_RESIDENCY_IN_USE_COMPLIANT"
+}

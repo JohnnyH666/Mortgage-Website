@@ -1,0 +1,15 @@
+{
+  "name": "534b83b1-f6bc-4c97-8ccb-dd86c7ad20d8",
+  "displayName": "Loan Limit",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "To calculate your loan limit we need the number of dependents, your yearly income and your yearly expenses." ]
+      },
+      "languageCode": "en"
+    } ]
+  }
+}

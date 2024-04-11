@@ -1,0 +1,45 @@
+{
+  "name": "6fd33da4-6f16-4a84-96ba-2c54ae1bcbfa",
+  "displayName": "Document",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "After filling out the application form, you'll need to submit several documents. This includes:\nProof of Income: Last 3 months of bank statements into which primary income is deposited into .\nIdentification: A valid form of ID such as a passport or driver's license.\nThe documentation needs to be in image format, cannot be in PDF form or Word Document. Please convert it into an image when uploading to our system." ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Tell me more about the application form"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "redirect.form",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Form",
+    "name": "8272516c-7be9-4b90-b1d6-01b29c385af6"
+  }, {
+    "intent": "redirect.home",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Bye Bye! " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Flow",
+    "name": "e47ec8c5-41b9-4d67-8158-d0fdb683175f"
+  } ]
+}

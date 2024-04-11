@@ -1,0 +1,49 @@
+{
+  "name": "3213ff22-20d5-4824-8ac8-4b6598f1657e",
+  "displayName": "Application Overview",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "The Loan Application Process has two steps:\n1. Filling out the application form: : You'll need to provide personal information, details about the property you're planning to purchase, and the type of loan you're applying for. Our online application form is straightforward, and if you need any assistance, I'm here to help.\n2. Document Submission: The last step is providing documentation to support your application. This includes identification and a bank statement. \nI can provide more information about these steps if you wish." ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Application Form"
+          }, {
+            "text": "Documentation"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "redirect.form",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Form",
+    "name": "714975bc-5d5b-4d77-ab78-f17c6d737f2d"
+  }, {
+    "intent": "redirect.document",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Document",
+    "name": "875ca791-240e-4161-b74e-d1166ecbddb0"
+  }, {
+    "intent": "redirect.home",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "558ed1c2-84bc-40aa-8b46-69bf6daa936e"
+  } ]
+}

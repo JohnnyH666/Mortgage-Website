@@ -1,0 +1,83 @@
+{
+  "name": "0b63d301-ac7a-437d-8233-f388b6451ee0",
+  "displayName": "Catalog",
+  "transitionRoutes": [ {
+    "intent": "redirect.application.overview",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Application Overview",
+    "name": "a08ed1cc-9749-4ee4-8425-081100b9e7ac"
+  }, {
+    "intent": "redirect.form",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Form",
+    "name": "2a203f72-a947-4d2b-ac04-91eaac11130b"
+  }, {
+    "intent": "redirect.document",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Document",
+    "name": "95c6d8da-bea6-4971-a4fe-33a019cd5e7e"
+  }, {
+    "intent": "redirect.loanpackage.overview",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Loan Package",
+    "name": "58baacf3-be5d-4cba-8c18-d1337f993f88"
+  }, {
+    "intent": "redirect.home",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Bye Bye! " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Flow",
+    "name": "0d218c7f-7a29-42f1-8149-134a5584714d"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "10f782b9-d1ee-47e6-b493-388799387afa"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "74bbc723-3319-42f2-b51c-79a03218e6fb"
+  }, {
+    "event": "webhook.error",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Webhook Error" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "09b0bd4e-0164-4108-9bf8-3d931b0afc39"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  }
+}

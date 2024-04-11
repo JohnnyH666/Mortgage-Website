@@ -1,0 +1,7 @@
+{
+  "name": "87e5c96d-3fab-4605-9ce4-891bb8076062",
+  "displayName": "redirect.loanlimit",
+  "priority": 500000,
+  "description": "Calculates loan limit when user inputs income, expense and number of dependents",
+  "numTrainingPhrases": 4
+}

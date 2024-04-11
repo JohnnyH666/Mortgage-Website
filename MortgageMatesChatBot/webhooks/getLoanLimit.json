@@ -1,0 +1,10 @@
+{
+  "name": "548d7afe-e7e1-4594-9a5e-df4dec146741",
+  "displayName": "getLoanLimit",
+  "genericWebService": {
+    "uri": "https://us-central1-mortgage-394306.cloudfunctions.net/getLoanLimit"
+  },
+  "timeout": {
+    "seconds": 10
+  }
+}

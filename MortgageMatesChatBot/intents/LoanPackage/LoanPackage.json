@@ -1,0 +1,11 @@
+{
+  "name": "73e08995-331c-4b96-9907-f34a30ce799b",
+  "displayName": "LoanPackage",
+  "parameters": [ {
+    "id": "loanpackage",
+    "entityType": "@LoanPackage"
+  } ],
+  "priority": 500000,
+  "description": "Lists out the current loan packages in the system",
+  "numTrainingPhrases": 3
+}

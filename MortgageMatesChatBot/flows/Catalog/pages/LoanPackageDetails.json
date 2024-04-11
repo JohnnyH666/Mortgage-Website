@@ -1,0 +1,53 @@
+{
+  "name": "206acc87-3059-46f4-8471-c480e076d478",
+  "displayName": "LoanPackageDetails",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "image": {
+            "src": {
+              "rawUrl": "\u003cLink to an image representing the loan package, if available\u003e"
+            }
+          },
+          "subtitle": "Here's an example of one of the loan packages in our system:",
+          "title": "Loan Packages",
+          "type": "info"
+        }, {
+          "text": [ "Interest Rate: 6.24%", "Loan Period: 30 months", "Repayment: $3000", "Fee: $395" ],
+          "title": "Standard Variable Rate Package",
+          "type": "description"
+        }, {
+          "eventHandler": {
+            "name": "",
+            "trigger": ""
+          },
+          "icon": {
+            "color": "#FF9800",
+            "type": "chevron_right"
+          },
+          "link": "http://localhost:5173/user-loan%20packages",
+          "text": "View More Loan Packages",
+          "type": "button"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "redirect.home",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Bye Bye! " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Flow",
+    "name": "687d7c06-4619-4974-a6f8-5e4c106b89b8"
+  } ]
+}

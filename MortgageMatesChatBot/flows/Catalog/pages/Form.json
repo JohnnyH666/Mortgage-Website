@@ -1,0 +1,54 @@
+{
+  "name": "962922f4-27d0-4ae9-a4d7-b768ae7356b3",
+  "displayName": "Form",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "text": [ "The Loan Application Form is filled out at on the user loan application page located on the top of the website. It requires information about your dependents, income and expenses. This means you'll to collect information about your estimated yearly incomes, expenses for yourself, and if you have a partner their details as well. You can start a loan application form by clicking the large blue plus button " ],
+          "title": "What is a loan application?",
+          "type": "description"
+        }, {
+          "eventHandler": {
+            "name": "",
+            "trigger": ""
+          },
+          "icon": {
+            "color": "#FF9800",
+            "type": "chevron_right"
+          },
+          "link": "http://localhost:5173/user-loan%20applications",
+          "text": "Make a loan application",
+          "type": "button"
+        } ] ]
+      },
+      "languageCode": "en"
+    }, {
+      "payload": {
+        "richContent": [ [ {
+          "options": [ {
+            "text": "Tell me more about documentation"
+          } ],
+          "type": "chips"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "redirect.document",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Bye Bye! " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Document",
+    "name": "06985800-a01e-466d-86a7-a2ca4f9e2f36"
+  } ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "1f1df20e-5d4b-4575-8fae-204fe1cb6629",
+  "displayName": "Thank You!",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "payload": {
+        "richContent": [ [ {
+          "eventHandler": {
+            "name": "",
+            "trigger": ""
+          },
+          "icon": {
+            "color": "#FF9800",
+            "type": "chevron_right"
+          },
+          "link": "http://localhost:5173/user-loan%20applications",
+          "text": "Make a loan application here and get your loan limit approved!",
+          "type": "button"
+        } ] ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "redirect.home",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Bye Bye! " ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Flow",
+    "name": "6f0646e4-7d90-4a45-909e-f0054c0534ce"
+  } ]
+}

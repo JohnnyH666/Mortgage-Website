@@ -1,0 +1,86 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Welcome, I am the virtual agent of Mortgage Mates. I can help you with various different tasks, such as help you understand how to make a loan application and what documents you need,  explain our different loan packages and help you get an estimated loan limit.\n" ]
+        },
+        "languageCode": "en"
+      }, {
+        "payload": {
+          "richContent": [ [ {
+            "options": [ {
+              "text": "Loan Application?"
+            }, {
+              "text": "Loan Packages?"
+            }, {
+              "text": "Loan Limit?"
+            } ],
+            "type": "chips"
+          } ] ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "11deaf13-c7e5-4c6e-9c4d-fef9be353170"
+  }, {
+    "intent": "redirect.application.overview",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Catalog",
+    "name": "c9f2497f-d570-41c8-ac57-5d33b079e02a"
+  }, {
+    "intent": "redirect.loanpackage.overview",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Catalog",
+    "name": "5fdabb90-9036-4743-9a28-09a74cd5d494"
+  }, {
+    "intent": "redirect.loanlimit",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "Loan Limit",
+    "name": "343a803c-c256-43b0-b943-92104de76ca3"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "10a71bcc-034a-4cfb-a6b5-c2e6d7bdb1d2"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "18628dc9-45bc-43f7-ae95-7d0934a6c78e"
+  }, {
+    "targetPage": "End Session",
+    "event": "clearsession",
+    "triggerFulfillment": {
+    
+    },
+    "name": "4ae49aab-50d8-4f82-a77b-f83c44b3177a"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  }
+}
